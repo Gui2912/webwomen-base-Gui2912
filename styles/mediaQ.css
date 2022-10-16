@@ -1,0 +1,25 @@
+@media (max-width: 705px){
+  .container{
+    padding: 16px;
+  }
+
+  .main-section{
+    width: 100%;
+  }
+
+  .flex{display: block;}
+
+  aside{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #go-vacancy{
+    width: 80%;
+  }
+
+  .candidate{
+    margin-top: 20px;
+    width: 100%;
+  }
+}

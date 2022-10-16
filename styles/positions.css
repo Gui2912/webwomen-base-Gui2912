@@ -1,0 +1,13 @@
+.flex{display: flex;}
+.align-center{align-items: center;}
+.justify-center{justify-content: center;}
+.column{flex-direction: column;}
+.row{flex-direction: row;}
+.margin-auto{margin: 0 auto;}
+.space-between{justify-content: space-between;}
+
+
+.w-full{width: 100%;}
+.max-w-full{max-width: 100%;}
+.h-full{height: 100%;}
+.max-h-full{max-height: 100%;}

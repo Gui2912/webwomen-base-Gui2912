@@ -7,9 +7,7 @@
   scroll-behavior: smooth;
 }
 
-img {
-  max-width: 100%;
-}
+ul{list-style: none;}
 
 :root {
   --color-brand-1: #6741D9;
@@ -43,6 +41,8 @@ body {
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  height: max-content;
+  padding-left: 5%;
 }
 
 @media(max-width: 991px){
@@ -52,4 +52,6 @@ body {
     --title-3: calc(2rem / 1.2);
     --text-1:  calc(1.125rem / 1.2);
   }
+
+  
 }

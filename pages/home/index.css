@@ -1,1 +1,81 @@
-/* Desenvolva sua estilização aqui... */
+header{
+  background-color: black;
+  color: white;
+}
+
+.head {
+  padding: 80px 5%;
+}
+
+main{
+  background-color: var(--color-grey-5);
+}
+
+.main-section{
+  width: 65%;
+  margin-right: 3%;
+}
+
+.card{
+  padding: 20px;
+  border-radius: var(--radius-default);
+  margin-bottom: 30px;
+}
+
+aside{
+  width: 25%;
+  margin-top: 98.168px;
+  background-color: var(--color-grey-6);
+  padding: 20px;
+  border-radius: var(--radius-default);
+  height: max-content;
+}
+
+#favorite-container li{
+  margin-top: 20px;
+  border-bottom: 1px solid var(--color-grey-4);
+}
+
+.favorite-header{
+  width: 100%;
+}
+.favorite-header h4{
+  width: 70%;
+  font-size: var(--text-3);
+  word-wrap:break-word;
+}
+
+.favorite-header span{
+  font-size: var(--text-3);
+  
+}
+
+#favorite-container li span{
+  margin-right: 10px;
+}
+
+.empty{
+  color: var(--color-grey-5);
+  background-color: var(--color-grey-5);
+  margin-bottom: 20px;
+  border-radius: var(--radius-default);
+  height: 16px;
+}
+
+.empty-p{
+  margin-top: 50px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.empty-div{
+  width: 50%;
+}
+
+.empty-div-2{
+  width: 100%;
+}
+
+.empty-span{
+  width: 30%;
+}

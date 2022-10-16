@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="pages/home/index.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/positions.css" />
+    <link rel="stylesheet" href="styles/texts.css" />
+    <link rel="stylesheet" href="styles/mediaQ.css">
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="head container flex column">
+        <figure>
+          <img src="assets/img/logo.svg" alt="" />
+        </figure>
+        <h1>Lugar de mulher é onde ela quiser!</h1>
+        <p>
+          Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+        </p>
+        <p>
+          Ou até mesmo oportunidades para atender eventos de tecnologia no
+          Brasil e ao redor do mundo?
+        </p>
+        <p class="p3">
+          <strong>Confira aqui em baixo o que temos para você</strong>
+        </p>
+        <button id="go-vacancy">Ir para seção de vagas</button>
+      </section>
+    </header>
+    <main class="container flex">
+      <section class="main-section">
+        <h3>Vagas</h3>
+        <ul id="card-container"></ul>
+      </section>
+      <aside>
+        <h3>Vagas Selecionadas</h3>
+        <ul id="favorite-container">
+          <li>
+            <p class="empty-p">Você ainda não aplicou para nenhuma vaga</p>
+            <div class="empty empty-div"></div>
+            <div class="empty empty-div-2"></div>
+            <div class="flex space-between">
+              <div class="empty empty-span"></div>
+              <div class="empty empty-span"></div>
+              <div class="empty empty-span"></div>
+            </div>
+          </li>
+
+            <!-- <div class="favorite-header flex space-between align-center">
+            <h4>Titulpdddddddddddddddddddddddddddddddd</h4>
+            <button>
+              <img src="assets/img/trash.svg" alt="">
+            </button>
+            </div>
+            <span>Kenzie</span>
+            <span>Curtiba</span> -->
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <script src="pages/home/jobsData.js"></script>
+    <script src="pages/home/index.js"></script>
+    <script src="scripts/render.js"></script>
+    <script src="scripts/favorite.js"></script>
+  </body>
+</html>
