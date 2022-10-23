@@ -33,5 +33,6 @@ button{
 
 .favorite-header button:hover{
   background-color: var(--color-grey-4);
+  cursor: pointer;
 }
 
